@@ -1,0 +1,13 @@
+# Place your project photos here.
+#
+# Recommended filenames:
+#   hero.jpg               – Hero section background
+#   vonios-remontas.jpg    – Vonios kambario projektas
+#   plyteliu-klijavimas.jpg
+#   grindu-klojimas.jpg
+#   gipskartonis.jpg
+#   dazymo-darbai.jpg
+#   pilnas-irangimas.jpg
+#
+# Then update src/lib/images.ts to point to these local paths.
+# Example: src: '/images/projects/hero.jpg'

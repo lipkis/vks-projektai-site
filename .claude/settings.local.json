@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python \"c:\\\\Users\\\\Test4\\\\OneDrive\\\\Documents\\\\Web\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"construction interior renovation contractor professional trustworthy\" --design-system -p \"VKS Projektai\" -f markdown)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
