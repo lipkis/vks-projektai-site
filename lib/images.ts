@@ -15,38 +15,32 @@ export const heroImage = {
 
 export const galleryImages = [
   {
-    // Replace with: '/images/projects/vonios-remontas.jpg'
-    src: 'https://picsum.photos/seed/vks-bathroom/800/600',
+    src: '/images/projects/vonios-remontas.jpg',
     alt: 'Vonios kambarys su plytelėmis – baigtas projektas',
     label: 'Vonios remontas',
   },
   {
-    // Replace with: '/images/projects/plyteliu-klijavimas.jpg'
-    src: 'https://picsum.photos/seed/vks-tiles-kitchen/800/600',
+    src: '/images/projects/plyteliu-klijavimas.jpg',
     alt: 'Plytelių klijavimas virtuvėje',
     label: 'Plytelių klijavimas',
   },
   {
-    // Replace with: '/images/projects/grindu-klojimas.jpg'
-    src: 'https://picsum.photos/seed/vks-flooring/800/600',
+    src: '/images/projects/grindu-klojimas.jpg',
     alt: 'Grindų klojimas – laminatas',
     label: 'Grindų klojimas',
   },
   {
-    // Replace with: '/images/projects/gipskartonis.jpg'
-    src: 'https://picsum.photos/seed/vks-gypsum-room/800/600',
+    src: '/images/projects/gipskartonis.jpg',
     alt: 'Gipskartonio konstrukcija kambaryje',
     label: 'Gipskartonio darbai',
   },
   {
-    // Replace with: '/images/projects/dazymo-darbai.jpg'
-    src: 'https://picsum.photos/seed/vks-painting/800/600',
+    src: '/images/projects/dazymo-darbai.jpg',
     alt: 'Glaistymas ir dažymas – baigtas kambarys',
     label: 'Dažymo darbai',
   },
   {
-    // Replace with: '/images/projects/pilnas-irangimas.jpg'
-    src: 'https://picsum.photos/seed/vks-full-interior/800/600',
+    src: '/images/projects/pilnas-irangimas.jpg',
     alt: 'Pilnas buto įrengimas – baigtas rezultatas',
     label: 'Pilnas įrengimas',
   },
