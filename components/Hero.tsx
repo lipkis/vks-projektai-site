@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { heroImage } from '@/lib/images'
 
 export default function Hero() {
@@ -7,11 +8,14 @@ export default function Hero() {
       <div className="relative min-h-screen flex items-center">
         {/* Background image + overlay */}
         <div className="absolute inset-0 overflow-hidden">
-          <img
+          <Image
             src={heroImage.src}
             alt=""
             aria-hidden="true"
-            className="h-full w-full object-cover"
+            fill
+            className="object-cover"
+            priority
+            quality={85}
           />
           {/* Base dark layer */}
           <div className="absolute inset-0 bg-brand-900/55" />

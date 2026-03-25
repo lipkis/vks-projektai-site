@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import { galleryCategories, allGalleryImages, type GalleryImage } from '@/lib/images'
 
 const ALL_TAB = { id: 'visi', label: 'Visi darbai' }
@@ -89,11 +90,14 @@ function ModalGallery({ onClose }: { onClose: () => void }) {
               className="break-inside-avoid overflow-hidden group cursor-pointer relative"
               onClick={() => setLightbox(img)}
             >
-              <img
+              <Image
                 src={img.src}
                 alt={img.alt}
+                width={800}
+                height={600}
                 className="w-full h-auto block transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
+                quality={80}
               />
             </div>
           ))}
@@ -115,11 +119,14 @@ function ModalGallery({ onClose }: { onClose: () => void }) {
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
           </button>
-          <img
+          <Image
             src={lightbox.src}
             alt={lightbox.alt}
+            width={1200}
+            height={900}
             className="max-w-full max-h-[90vh] object-contain shadow-2xl"
             onClick={(e) => e.stopPropagation()}
+            quality={90}
           />
           <p className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/60 text-sm font-sans">
             {lightbox.label}
