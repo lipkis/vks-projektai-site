@@ -280,28 +280,6 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Map */}
-        <div className="mt-16">
-          <div className="flex items-center gap-3 mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-gold-500 flex-shrink-0" aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-            </svg>
-            <p className="font-sans text-sm font-medium text-brand-700">Kaunas ir Kauno rajonas</p>
-          </div>
-          <div className="relative w-full h-72 md:h-96 border border-stone-200 overflow-hidden">
-            <iframe
-              title="VKS Projektai žemėlapis"
-              src="https://maps.google.com/maps?q=Kaunas,+Lietuva&hl=lt&z=12&output=embed"
-              width="100%"
-              height="100%"
-              style={{ border: 0, filter: 'grayscale(20%) contrast(95%)' }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
-        </div>
       </div>
     </section>
   )
