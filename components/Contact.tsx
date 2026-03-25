@@ -49,7 +49,7 @@ const contactDetails = [
   },
   {
     label: 'Adresas',
-    value: 'Panerių g. 17-28, Jonava',
+    value: 'Kaunas ir Kauno rajonas',
     href: null,
     icon: (
       <svg
@@ -287,12 +287,12 @@ export default function Contact() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
             </svg>
-            <p className="font-sans text-sm font-medium text-brand-700">Panerių g. 17-28, Jonava</p>
+            <p className="font-sans text-sm font-medium text-brand-700">Kaunas ir Kauno rajonas</p>
           </div>
           <div className="relative w-full h-72 md:h-96 border border-stone-200 overflow-hidden">
             <iframe
               title="VKS Projektai žemėlapis"
-              src="https://maps.google.com/maps?q=Panerių+g.+17-28,+Jonava,+Lietuva&hl=lt&z=16&output=embed"
+              src="https://maps.google.com/maps?q=Kaunas,+Lietuva&hl=lt&z=12&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, filter: 'grayscale(20%) contrast(95%)' }}

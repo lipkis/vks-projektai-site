@@ -78,7 +78,7 @@ export default function Footer() {
               </li>
               <li>
                 <p className="font-sans text-xs text-white/40 uppercase tracking-widest mb-1">Adresas</p>
-                <p className="font-sans text-sm text-white/75">Panerių g. 17-28, Jonava</p>
+                <p className="font-sans text-sm text-white/75">Kaunas ir Kauno rajonas</p>
               </li>
               <li className="flex gap-3 pt-1">
                 <a
