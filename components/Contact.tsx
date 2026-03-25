@@ -5,8 +5,8 @@ import { useState } from 'react'
 const contactDetails = [
   {
     label: 'Telefonas',
-    value: '+370 600 00000',
-    href: 'tel:+37060000000',
+    value: '+370 678 88620',
+    href: 'tel:+37067888620',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -27,8 +27,8 @@ const contactDetails = [
   },
   {
     label: 'El. paštas',
-    value: 'info@vksprojektai.lt',
-    href: 'mailto:info@vksprojektai.lt',
+    value: 'Vksprojektai@gmail.com',
+    href: 'mailto:Vksprojektai@gmail.com',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -48,8 +48,8 @@ const contactDetails = [
     ),
   },
   {
-    label: 'Darbo zona',
-    value: 'Kaunas ir Kauno rajonas',
+    label: 'Adresas',
+    value: 'Panerių g. 17-28, Jonava',
     href: null,
     icon: (
       <svg
@@ -127,8 +127,34 @@ export default function Contact() {
               ))}
             </div>
 
+            {/* Social links */}
+            <div className="mt-8 flex flex-wrap gap-3">
+              <a
+                href="https://www.facebook.com/VKSProjektai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-stone-200 hover:border-gold-500 text-brand-700 hover:text-gold-500 font-sans text-sm font-medium px-4 py-2.5 transition-colors duration-200 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-500"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4" aria-hidden="true">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                Facebook
+              </a>
+              <a
+                href="https://paslaugos.lt/uab-vks-projektai-uv783"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-stone-200 hover:border-gold-500 text-brand-700 hover:text-gold-500 font-sans text-sm font-medium px-4 py-2.5 transition-colors duration-200 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-500"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                </svg>
+                Paslaugos.lt profilis
+              </a>
+            </div>
+
             {/* Response time note */}
-            <div className="mt-10 p-5 bg-stone-50 border-l-4 border-gold-500">
+            <div className="mt-8 p-5 bg-stone-50 border-l-4 border-gold-500">
               <p className="font-sans text-sm text-brand-600 leading-relaxed">
                 <strong className="font-semibold text-brand-900">Atsakymo laikas:</strong>{' '}
                 Į užklausas atsakome per 1 darbo dieną. Skubiems klausimams
@@ -251,6 +277,29 @@ export default function Contact() {
                 </p>
               </form>
             )}
+          </div>
+        </div>
+
+        {/* Map */}
+        <div className="mt-16">
+          <div className="flex items-center gap-3 mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-gold-500 flex-shrink-0" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+            </svg>
+            <p className="font-sans text-sm font-medium text-brand-700">Panerių g. 17-28, Jonava</p>
+          </div>
+          <div className="relative w-full h-72 md:h-96 border border-stone-200 overflow-hidden">
+            <iframe
+              title="VKS Projektai žemėlapis"
+              src="https://maps.google.com/maps?q=Panerių+g.+17-28,+Jonava,+Lietuva&hl=lt&z=16&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0, filter: 'grayscale(20%) contrast(95%)' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
       </div>

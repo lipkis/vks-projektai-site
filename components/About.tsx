@@ -100,7 +100,7 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-brand-600 font-sans text-base leading-relaxed">
               <p>
-                VKS Projektai – Kaune įsikūrusi vidaus apdailos įmonė, atliekanti
+                VKS Projektai – Jonavoje įsikūrusi vidaus apdailos įmonė, atliekanti
                 pilną vidaus įrengimą gyvenamuosiuose ir komerciniuose
                 pastatuose. Dirbame Kaune ir Kauno rajone.
               </p>

@@ -29,25 +29,17 @@ export default function Header() {
       className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${headerBg}`}
     >
       <div className="wrapper">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-28 md:h-32">
           {/* Logo */}
           <a
             href="#"
-            className="flex items-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 focus-visible:ring-offset-2 focus-visible:ring-offset-brand-900"
+            className="flex items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 focus-visible:ring-offset-2 focus-visible:ring-offset-brand-900 py-3"
           >
-            <div className="flex-shrink-0 w-10 h-10 bg-gold-500 flex items-center justify-center">
-              <span className="text-white font-sans font-bold text-sm tracking-tight select-none">
-                VKS
-              </span>
-            </div>
-            <div>
-              <p className="text-white font-sans font-semibold text-base leading-none">
-                VKS Projektai
-              </p>
-              <p className="text-gold-400 font-sans text-xs tracking-[0.18em] uppercase mt-1">
-                Vidaus įrengimas
-              </p>
-            </div>
+            <img
+              src="/images/logo.png"
+              alt="VKS Projektai – Vidaus įrengimas"
+              className="h-20 md:h-24 w-auto drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]"
+            />
           </a>
 
           {/* Desktop nav */}
