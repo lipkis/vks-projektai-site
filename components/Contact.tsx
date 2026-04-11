@@ -27,8 +27,8 @@ const contactDetails = [
   },
   {
     label: 'El. paštas',
-    value: 'Vksprojektai@gmail.com',
-    href: 'mailto:Vksprojektai@gmail.com',
+    value: 'info@vksprojektai.lt',
+    href: 'mailto:info@vksprojektai.lt',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

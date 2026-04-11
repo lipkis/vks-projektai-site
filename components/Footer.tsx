@@ -70,10 +70,10 @@ export default function Footer() {
               <li>
                 <p className="font-sans text-xs text-white/40 uppercase tracking-widest mb-1">El. paštas</p>
                 <a
-                  href="mailto:Vksprojektai@gmail.com"
+                  href="mailto:info@vksprojektai.lt"
                   className="font-sans text-sm text-white/75 hover:text-gold-400 transition-colors duration-200 cursor-pointer focus:outline-none focus-visible:text-gold-400"
                 >
-                  Vksprojektai@gmail.com
+                  info@vksprojektai.lt
                 </a>
               </li>
               <li>
