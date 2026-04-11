@@ -24,7 +24,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: 'paneriu-g-kaunas',
-    title: 'Buto renovacija',
+    title: 'Buto įrengimas',
     location: 'Panerių g., Kaunas',
     cover: '/images/projects/paneriu-g-kaunas/IMG_3979.JPG',
     photos: [
@@ -39,7 +39,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'radvilenai-kaunas',
-    title: 'Buto renovacija',
+    title: 'Buto įrengimas',
     location: 'Radvilėnų pl., Kaunas',
     cover: '/images/projects/radvilenai-kaunas/image00013.jpeg',
     photos: [
@@ -56,7 +56,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'nemunaiciai',
-    title: 'Namo renovacija',
+    title: 'Namo įrengimas',
     location: 'Nemunaičiai',
     cover: '/images/projects/nemunaiciai/image00001.jpeg',
     photos: [
@@ -76,7 +76,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'smiltynai',
-    title: 'Buto renovacija',
+    title: 'Buto įrengimas',
     location: 'Smiltynai',
     cover: '/images/projects/smiltynai/image00001.jpeg',
     photos: [
@@ -93,26 +93,26 @@ export const projects: Project[] = [
   },
   {
     slug: 'vonios-kampiskiai',
-    title: 'Vonios renovacija',
+    title: 'Vonios įrengimas',
     location: 'Kampiškiai',
     cover: '/images/projects/vonios-kampiskiai/image00023.jpeg',
     photos: [
-      { src: '/images/projects/vonios-kampiskiai/image00023.jpeg', alt: 'Vonios renovacija Kampiškiai' },
-      { src: '/images/projects/vonios-kampiskiai/image00024.jpeg', alt: 'Vonios renovacija Kampiškiai' },
-      { src: '/images/projects/vonios-kampiskiai/IMG_0186.PNG', alt: 'Vonios renovacija Kampiškiai' },
-      { src: '/images/projects/vonios-kampiskiai/IMG_0188.PNG', alt: 'Vonios renovacija Kampiškiai' },
+      { src: '/images/projects/vonios-kampiskiai/image00023.jpeg', alt: 'Vonios įrengimas Kampiškiai' },
+      { src: '/images/projects/vonios-kampiskiai/image00024.jpeg', alt: 'Vonios įrengimas Kampiškiai' },
+      { src: '/images/projects/vonios-kampiskiai/IMG_0186.PNG', alt: 'Vonios įrengimas Kampiškiai' },
+      { src: '/images/projects/vonios-kampiskiai/IMG_0188.PNG', alt: 'Vonios įrengimas Kampiškiai' },
     ],
   },
   {
     slug: 'vonios-vaisiu-g',
-    title: 'Vonios renovacija',
+    title: 'Vonios įrengimas',
     location: 'Vaisių g., Kaunas',
     cover: '/images/projects/vonios-vaisiu-g/IMG_2613.JPG',
     photos: [
-      { src: '/images/projects/vonios-vaisiu-g/IMG_2613.JPG', alt: 'Vonios renovacija Vaisių g. Kaunas' },
-      { src: '/images/projects/vonios-vaisiu-g/IMG_2616.JPG', alt: 'Vonios renovacija Vaisių g. Kaunas' },
-      { src: '/images/projects/vonios-vaisiu-g/IMG_2617.JPG', alt: 'Vonios renovacija Vaisių g. Kaunas' },
-      { src: '/images/projects/vonios-vaisiu-g/IMG_2618.JPG', alt: 'Vonios renovacija Vaisių g. Kaunas' },
+      { src: '/images/projects/vonios-vaisiu-g/IMG_2613.JPG', alt: 'Vonios įrengimas Vaisių g. Kaunas' },
+      { src: '/images/projects/vonios-vaisiu-g/IMG_2616.JPG', alt: 'Vonios įrengimas Vaisių g. Kaunas' },
+      { src: '/images/projects/vonios-vaisiu-g/IMG_2617.JPG', alt: 'Vonios įrengimas Vaisių g. Kaunas' },
+      { src: '/images/projects/vonios-vaisiu-g/IMG_2618.JPG', alt: 'Vonios įrengimas Vaisių g. Kaunas' },
     ],
   },
   {
