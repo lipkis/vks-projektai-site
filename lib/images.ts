@@ -24,7 +24,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: 'paneriu-g-kaunas',
-    title: 'Buto įrengimas',
+    title: 'Namo Vonios įrengimas',
     location: 'Panerių g., Kaunas',
     cover: '/images/projects/paneriu-g-kaunas/IMG_3979.JPG',
     photos: [
@@ -56,7 +56,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'nemunaiciai',
-    title: 'Namo įrengimas',
+    title: 'Buto įrengimas',
     location: 'Nemunaičiai',
     cover: '/images/projects/nemunaiciai/image00001.jpeg',
     photos: [
@@ -76,7 +76,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'smiltynai',
-    title: 'Buto įrengimas',
+    title: 'Namo įrengimas',
     location: 'Smiltynai',
     cover: '/images/projects/smiltynai/image00001.jpeg',
     photos: [
