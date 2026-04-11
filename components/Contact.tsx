@@ -79,10 +79,16 @@ const contactDetails = [
 export default function Contact() {
   const [sent, setSent] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // TODO: wire up form submission (e.g. Formspree, email service)
-    setSent(true)
+    const form = e.target as HTMLFormElement
+    const data = new FormData(form)
+    const res = await fetch('https://formspree.io/f/xvzverod', {
+      method: 'POST',
+      body: data,
+      headers: { Accept: 'application/json' },
+    })
+    if (res.ok) setSent(true)
   }
 
   return (
